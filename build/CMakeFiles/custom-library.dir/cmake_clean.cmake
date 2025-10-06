@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/custom-library.dir/link.d"
-  "CMakeFiles/custom-library.dir/custom-library/src/library.cpp.o"
-  "CMakeFiles/custom-library.dir/custom-library/src/library.cpp.o.d"
+  "CMakeFiles/custom-library.dir/library/src/library.cpp.o"
+  "CMakeFiles/custom-library.dir/library/src/library.cpp.o.d"
+  "CMakeFiles/custom-library.dir/library/src/main.cpp.o"
+  "CMakeFiles/custom-library.dir/library/src/main.cpp.o.d"
   "libcustom-library.pdb"
   "libcustom-library.so"
 )

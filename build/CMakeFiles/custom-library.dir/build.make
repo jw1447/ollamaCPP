@@ -72,33 +72,49 @@ include CMakeFiles/custom-library.dir/flags.make
 CMakeFiles/custom-library.dir/codegen:
 .PHONY : CMakeFiles/custom-library.dir/codegen
 
-CMakeFiles/custom-library.dir/custom-library/src/library.cpp.o: CMakeFiles/custom-library.dir/flags.make
-CMakeFiles/custom-library.dir/custom-library/src/library.cpp.o: /home/jw/Dokumente/ollamaCPP/custom-library/src/library.cpp
-CMakeFiles/custom-library.dir/custom-library/src/library.cpp.o: CMakeFiles/custom-library.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jw/Dokumente/ollamaCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/custom-library.dir/custom-library/src/library.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/custom-library.dir/custom-library/src/library.cpp.o -MF CMakeFiles/custom-library.dir/custom-library/src/library.cpp.o.d -o CMakeFiles/custom-library.dir/custom-library/src/library.cpp.o -c /home/jw/Dokumente/ollamaCPP/custom-library/src/library.cpp
+CMakeFiles/custom-library.dir/library/src/library.cpp.o: CMakeFiles/custom-library.dir/flags.make
+CMakeFiles/custom-library.dir/library/src/library.cpp.o: /home/jw/Dokumente/ollamaCPP/library/src/library.cpp
+CMakeFiles/custom-library.dir/library/src/library.cpp.o: CMakeFiles/custom-library.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jw/Dokumente/ollamaCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/custom-library.dir/library/src/library.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/custom-library.dir/library/src/library.cpp.o -MF CMakeFiles/custom-library.dir/library/src/library.cpp.o.d -o CMakeFiles/custom-library.dir/library/src/library.cpp.o -c /home/jw/Dokumente/ollamaCPP/library/src/library.cpp
 
-CMakeFiles/custom-library.dir/custom-library/src/library.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/custom-library.dir/custom-library/src/library.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jw/Dokumente/ollamaCPP/custom-library/src/library.cpp > CMakeFiles/custom-library.dir/custom-library/src/library.cpp.i
+CMakeFiles/custom-library.dir/library/src/library.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/custom-library.dir/library/src/library.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jw/Dokumente/ollamaCPP/library/src/library.cpp > CMakeFiles/custom-library.dir/library/src/library.cpp.i
 
-CMakeFiles/custom-library.dir/custom-library/src/library.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/custom-library.dir/custom-library/src/library.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jw/Dokumente/ollamaCPP/custom-library/src/library.cpp -o CMakeFiles/custom-library.dir/custom-library/src/library.cpp.s
+CMakeFiles/custom-library.dir/library/src/library.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/custom-library.dir/library/src/library.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jw/Dokumente/ollamaCPP/library/src/library.cpp -o CMakeFiles/custom-library.dir/library/src/library.cpp.s
+
+CMakeFiles/custom-library.dir/library/src/main.cpp.o: CMakeFiles/custom-library.dir/flags.make
+CMakeFiles/custom-library.dir/library/src/main.cpp.o: /home/jw/Dokumente/ollamaCPP/library/src/main.cpp
+CMakeFiles/custom-library.dir/library/src/main.cpp.o: CMakeFiles/custom-library.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jw/Dokumente/ollamaCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/custom-library.dir/library/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/custom-library.dir/library/src/main.cpp.o -MF CMakeFiles/custom-library.dir/library/src/main.cpp.o.d -o CMakeFiles/custom-library.dir/library/src/main.cpp.o -c /home/jw/Dokumente/ollamaCPP/library/src/main.cpp
+
+CMakeFiles/custom-library.dir/library/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/custom-library.dir/library/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jw/Dokumente/ollamaCPP/library/src/main.cpp > CMakeFiles/custom-library.dir/library/src/main.cpp.i
+
+CMakeFiles/custom-library.dir/library/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/custom-library.dir/library/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jw/Dokumente/ollamaCPP/library/src/main.cpp -o CMakeFiles/custom-library.dir/library/src/main.cpp.s
 
 # Object files for target custom-library
 custom__library_OBJECTS = \
-"CMakeFiles/custom-library.dir/custom-library/src/library.cpp.o"
+"CMakeFiles/custom-library.dir/library/src/library.cpp.o" \
+"CMakeFiles/custom-library.dir/library/src/main.cpp.o"
 
 # External object files for target custom-library
 custom__library_EXTERNAL_OBJECTS =
 
-libcustom-library.so: CMakeFiles/custom-library.dir/custom-library/src/library.cpp.o
+libcustom-library.so: CMakeFiles/custom-library.dir/library/src/library.cpp.o
+libcustom-library.so: CMakeFiles/custom-library.dir/library/src/main.cpp.o
 libcustom-library.so: CMakeFiles/custom-library.dir/build.make
 libcustom-library.so: CMakeFiles/custom-library.dir/compiler_depend.ts
 libcustom-library.so: /usr/lib/libcurl.so
 libcustom-library.so: CMakeFiles/custom-library.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jw/Dokumente/ollamaCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libcustom-library.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jw/Dokumente/ollamaCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libcustom-library.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/custom-library.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -5,6 +5,7 @@ find_package(CURL REQUIRED)
 
 add_library(custom-library SHARED
     library/src/library.cpp
+    library/src/main.cpp
 )
 
 target_include_directories(custom-library PUBLIC 

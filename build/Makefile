@@ -174,29 +174,53 @@ custom-library/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom-library.dir/build.make CMakeFiles/custom-library.dir/build
 .PHONY : custom-library/fast
 
-custom-library/src/library.o: custom-library/src/library.cpp.o
-.PHONY : custom-library/src/library.o
+library/src/library.o: library/src/library.cpp.o
+.PHONY : library/src/library.o
 
 # target to build an object file
-custom-library/src/library.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom-library.dir/build.make CMakeFiles/custom-library.dir/custom-library/src/library.cpp.o
-.PHONY : custom-library/src/library.cpp.o
+library/src/library.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom-library.dir/build.make CMakeFiles/custom-library.dir/library/src/library.cpp.o
+.PHONY : library/src/library.cpp.o
 
-custom-library/src/library.i: custom-library/src/library.cpp.i
-.PHONY : custom-library/src/library.i
+library/src/library.i: library/src/library.cpp.i
+.PHONY : library/src/library.i
 
 # target to preprocess a source file
-custom-library/src/library.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom-library.dir/build.make CMakeFiles/custom-library.dir/custom-library/src/library.cpp.i
-.PHONY : custom-library/src/library.cpp.i
+library/src/library.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom-library.dir/build.make CMakeFiles/custom-library.dir/library/src/library.cpp.i
+.PHONY : library/src/library.cpp.i
 
-custom-library/src/library.s: custom-library/src/library.cpp.s
-.PHONY : custom-library/src/library.s
+library/src/library.s: library/src/library.cpp.s
+.PHONY : library/src/library.s
 
 # target to generate assembly for a file
-custom-library/src/library.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom-library.dir/build.make CMakeFiles/custom-library.dir/custom-library/src/library.cpp.s
-.PHONY : custom-library/src/library.cpp.s
+library/src/library.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom-library.dir/build.make CMakeFiles/custom-library.dir/library/src/library.cpp.s
+.PHONY : library/src/library.cpp.s
+
+library/src/main.o: library/src/main.cpp.o
+.PHONY : library/src/main.o
+
+# target to build an object file
+library/src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom-library.dir/build.make CMakeFiles/custom-library.dir/library/src/main.cpp.o
+.PHONY : library/src/main.cpp.o
+
+library/src/main.i: library/src/main.cpp.i
+.PHONY : library/src/main.i
+
+# target to preprocess a source file
+library/src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom-library.dir/build.make CMakeFiles/custom-library.dir/library/src/main.cpp.i
+.PHONY : library/src/main.cpp.i
+
+library/src/main.s: library/src/main.cpp.s
+.PHONY : library/src/main.s
+
+# target to generate assembly for a file
+library/src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom-library.dir/build.make CMakeFiles/custom-library.dir/library/src/main.cpp.s
+.PHONY : library/src/main.cpp.s
 
 # Help Target
 help:
@@ -211,9 +235,12 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... custom-library"
-	@echo "... custom-library/src/library.o"
-	@echo "... custom-library/src/library.i"
-	@echo "... custom-library/src/library.s"
+	@echo "... library/src/library.o"
+	@echo "... library/src/library.i"
+	@echo "... library/src/library.s"
+	@echo "... library/src/main.o"
+	@echo "... library/src/main.i"
+	@echo "... library/src/main.s"
 .PHONY : help
 
 

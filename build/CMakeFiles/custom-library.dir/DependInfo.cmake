@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/jw/Dokumente/ollamaCPP/custom-library/src/library.cpp" "CMakeFiles/custom-library.dir/custom-library/src/library.cpp.o" "gcc" "CMakeFiles/custom-library.dir/custom-library/src/library.cpp.o.d"
+  "/home/jw/Dokumente/ollamaCPP/library/src/library.cpp" "CMakeFiles/custom-library.dir/library/src/library.cpp.o" "gcc" "CMakeFiles/custom-library.dir/library/src/library.cpp.o.d"
+  "/home/jw/Dokumente/ollamaCPP/library/src/main.cpp" "CMakeFiles/custom-library.dir/library/src/main.cpp.o" "gcc" "CMakeFiles/custom-library.dir/library/src/main.cpp.o.d"
   "" "libcustom-library.so" "gcc" "CMakeFiles/custom-library.dir/link.d"
   )
 
