@@ -1,0 +1,2 @@
+/usr/bin/ar qc libollamaCPP.a CMakeFiles/ollamaCPP.dir/src/main.cpp.o
+/usr/bin/ranlib libollamaCPP.a

@@ -1,0 +1,7 @@
+/home/jw/Dokumente/ollamaCPP/build/CMakeFiles/custom-library.dir
+/home/jw/Dokumente/ollamaCPP/build/CMakeFiles/edit_cache.dir
+/home/jw/Dokumente/ollamaCPP/build/CMakeFiles/rebuild_cache.dir
+/home/jw/Dokumente/ollamaCPP/build/CMakeFiles/list_install_components.dir
+/home/jw/Dokumente/ollamaCPP/build/CMakeFiles/install.dir
+/home/jw/Dokumente/ollamaCPP/build/CMakeFiles/install/local.dir
+/home/jw/Dokumente/ollamaCPP/build/CMakeFiles/install/strip.dir
